@@ -1,0 +1,27 @@
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 14:32 ?        00:00:05 /sbin/init
+root           2       1  0 14:32 hvc0     00:00:00 /init
+root           6       2  0 14:32 hvc0     00:00:00 plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root          73       1  0 14:32 ?        00:00:01 /usr/lib/systemd/systemd-journald
+systemd+     110       1  0 14:32 ?        00:00:00 /usr/lib/systemd/systemd-resolved
+root         122       1  0 14:32 ?        00:00:02 /usr/lib/systemd/systemd-udevd
+root         146       1  0 14:32 ?        00:00:00 /bin/sh /usr/lib/systemd/scripts/chronyd-starter.sh -n -F 1
+root         147       1  0 14:32 ?        00:00:00 /usr/sbin/cron -f -P
+message+     148       1  0 14:32 ?        00:00:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         181       1  0 14:32 ?        00:00:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         186       1  0 14:32 ?        00:00:00 /usr/lib/systemd/systemd-logind
+syslog       220       1  0 14:32 ?        00:00:00 /usr/sbin/rsyslogd -n -iNONE
+_chrony      257     146  0 14:32 ?        00:00:00 /usr/sbin/chronyd -n -F 1 -x
+root         262       1  0 14:32 ?        00:00:01 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         272       1  0 14:32 tty1     00:00:00 /usr/sbin/agetty --noreset --noclear --issue-file=/etc/issue:/etc/issue.d:/run/issue.d:/usr/lib/issue.d - linux
+_chrony      276     257  0 14:32 ?        00:00:00 /usr/sbin/chronyd -n -F 1 -x
+root         333       2  0 14:33 ?        00:00:00 /init
+root         334     333  0 14:33 ?        00:00:00 /init
+jafed        335     334  0 14:33 pts/0    00:00:00 -bash
+root         336       2  0 14:33 ?        00:00:00 login -- jafed
+jafed        418       1  0 14:33 ?        00:00:01 /usr/lib/systemd/systemd --user
+jafed        423     418  0 14:33 ?        00:00:00 (sd-pam)
+jafed        467     336  0 14:33 pts/1    00:00:00 -bash
+polkitd      734       1  0 14:36 ?        00:00:00 /usr/lib/polkit-1/polkitd --no-debug --log-level=notice
+jafed        873     418  0 14:43 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+jafed       1445     335  0 15:50 pts/0    00:00:00 ps -ef
