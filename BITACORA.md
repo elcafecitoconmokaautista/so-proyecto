@@ -1,0 +1,1 @@
+### | PID | PPID | STAT | Qué creo que es y por que esta en ese estado | --- | --- | --- | --- |
