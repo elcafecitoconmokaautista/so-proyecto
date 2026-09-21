@@ -20,3 +20,6 @@ Esta semana solo veo un commit ("s03 proyecto: evidencia de la sesion de aula") 
 
 ### Nota rapida semana 4 (2026-09-21)
 No veo commits de la semana 4 (`s04 bloque 1`/`s04 bloque 2`), ni nada nuevo en tu repositorio desde la semana 3. Si tuviste un problema, cuentamelo para que quede en la bitacora.
+
+### Nota rapida semana 5 (2026-09-21)
+No veo commits de la semana 5 (`s05 bloque 1`/`s05 bloque 2`), y tampoco de la semana 4: tu ultimo trabajo en el repositorio es de la semana 3. Si tuviste un problema, cuentamelo para que quede en la bitacora y vemos como ponerte al corriente.
