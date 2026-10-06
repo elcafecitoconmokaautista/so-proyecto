@@ -23,3 +23,6 @@ No veo commits de la semana 4 (`s04 bloque 1`/`s04 bloque 2`), ni nada nuevo en 
 
 ### Nota rapida semana 5 (2026-09-21)
 No veo commits de la semana 5 (`s05 bloque 1`/`s05 bloque 2`), y tampoco de la semana 4: tu ultimo trabajo en el repositorio es de la semana 3. Si tuviste un problema, cuentamelo para que quede en la bitacora y vemos como ponerte al corriente.
+
+### Nota rápida (2026-10-06)
+No veo commits de la semana 06 (`s06 bloque 1`/`s06 bloque 2`). Si tuviste un problema, cuéntamelo para que quede en la bitácora.
