@@ -1,0 +1,45 @@
+// GestorInventario.java - version ROTA (semana 5): el inventario compartido SIN proteger.
+// Se guarda como .txt para que javac no la compile por error. Los scripts la compilan aparte.
+import java.util.HashMap;
+import java.util.Map;
+
+public class GestorInventario {
+
+    private static final boolean PAUSA =
+        Boolean.parseBoolean(System.getProperty("pausa", "true"));
+
+    private Map<String, Integer> existencias = new HashMap<>();
+    private int ventasConfirmadas = 0;
+    private int ventasRechazadas = 0;
+
+    public void agregar(String producto, int cantidad) {
+        existencias.put(producto, cantidad);
+    }
+
+    // ESTA es la seccion critica del curso completo (y aqui no esta protegida).
+    public boolean vender(String producto, int cantidad) {
+
+        Integer disponible = existencias.get(producto);
+        if (disponible == null) return false;
+
+        if (disponible >= cantidad) {
+            // La pausa no cambia la logica: solo ensancha la ventana para que el fallo se vea.
+            if (PAUSA) {
+                try { Thread.sleep(1); } catch (InterruptedException e) { }
+            }
+            existencias.put(producto, disponible - cantidad);
+            ventasConfirmadas++;
+            return true;
+        }
+
+        ventasRechazadas++;
+        return false;
+    }
+
+    public int existencia(String producto) {
+        return existencias.getOrDefault(producto, 0);
+    }
+
+    public int getVentasConfirmadas() { return ventasConfirmadas; }
+    public int getVentasRechazadas() { return ventasRechazadas; }
+}

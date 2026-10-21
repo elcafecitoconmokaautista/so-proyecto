@@ -1,0 +1,21 @@
+# S8 extra B - copia a /etc/systemd/system/servidor-pedidos.service y cambia TU_USUARIO.
+# Se usa el modo --fifo porque systemd le da al servidor una entrada VACIA (/dev/null):
+# en modo consola el servidor veria fin de archivo y terminaria al instante.
+[Unit]
+Description=Servidor de Pedidos - Farmacia SaludYa
+After=network.target
+
+[Service]
+Type=simple
+User=TU_USUARIO
+WorkingDirectory=/home/TU_USUARIO/so-proyecto
+ExecStartPre=/bin/sh -c 'test -p datos/cajero.pipe || mkfifo datos/cajero.pipe'
+ExecStart=/usr/bin/java -cp /home/TU_USUARIO/so-proyecto/src ServidorPedidos --fifo datos/cajero.pipe
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=20
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

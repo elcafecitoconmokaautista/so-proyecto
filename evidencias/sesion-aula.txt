@@ -1,0 +1,18 @@
+Script started on 2026-09-02 16:36:18-06:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="102" LINES="24"]
+[?2004h]0;jafed@WADJ5CG63121S8: ~/so-proyecto[01;32mjafed@WADJ5CG63121S8[00m:[01;34m~/so-proyecto[00m$ exit[30@git add evidencias/sesion-aula.tx[Cls[Kcdlsgit add evidencias/sesion-aula.txt
+[?2004l[?2004h]0;jafed@WADJ5CG63121S8: ~/so-proyecto[01;32mjafed@WADJ5CG63121S8[00m:[01;34m~/so-proyecto[00m$ git add evidencias/sesion-aula.txtexit[K[30@git add evidencias/sesion-aula.tx[Cls[Kgit add evidencias/sesion-aula.txtls[Kcdssh 192[3Pssjava Tragon.javassss[Kh 192cd[Klsgit add evidencias/sesion-aula.txtexit[K[30@git add evidencias/sesion-aula.tx[C[Kgit add evidencias/sesion-aula.txt[Kgit co[K[K[K[K[K[Kgit commit -m "s03 proyecto: evidencia de la sesion de aula"
+[?2004l[main 45d66af] s03 proyecto: evidencia de la sesion de aula
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 evidencias/sesion-aula.txt
+[?2004h]0;jafed@WADJ5CG63121S8: ~/so-proyecto[01;32mjafed@WADJ5CG63121S8[00m:[01;34m~/so-proyecto[00m$ git puah[K[Ksh
+[?2004lEnumerating objects: 5, done.
+Counting objects:  20% (1/5)Counting objects:  40% (2/5)Counting objects:  60% (3/5)Counting objects:  80% (4/5)Counting objects: 100% (5/5)Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 388 bytes | 129.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/elcafecitoconmokaautista/so-proyecto
+   d525fe1..45d66af  main -> main
+[?2004h]0;jafed@WADJ5CG63121S8: ~/so-proyecto[01;32mjafed@WADJ5CG63121S8[00m:[01;34m~/so-proyecto[00m$ 
+Script done on 2026-09-02 16:37:18-06:00 [COMMAND_EXIT_CODE="0"]

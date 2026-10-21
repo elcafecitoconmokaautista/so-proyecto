@@ -1,0 +1,7 @@
+# ID;NOMBRE;PRECIO;EXISTENCIA   (cambialo por el catalogo de TU negocio)
+1;paracetamol;25.50;40
+2;ibuprofeno;32.00;40
+3;amoxicilina;78.90;40
+4;loratadina;41.00;40
+5;omeprazol;55.25;40
+6;naproxeno;36.75;40
