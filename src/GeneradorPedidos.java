@@ -1,9 +1,9 @@
-// GeneradorPedidos.java - imprime N pedidos "ID;PRODUCTO;CANTIDAD" (uso: java GeneradorPedidos 20)
+
 import java.util.Random;
 
 public class GeneradorPedidos {
 
-    // TODO: usa los productos de TU catalogo (los mismos nombres de datos/catalogo.txt)
+    
     static final String[] PRODUCTOS =
         {"paracetamol", "ibuprofeno", "amoxicilina", "loratadina", "omeprazol", "naproxeno"};
 
